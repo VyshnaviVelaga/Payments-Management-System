@@ -1,25 +1,31 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
-const routes: Array<RouteRecordRaw> = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
-]
+import DashboardView from "@/views/Dashboard.vue";
+import UserList from "@/views/UserList.vue";
+import UserForm from "@/views/UserForm.vue";
+
+import PaymentList from "@/views/PaymentList.vue";
+import PaymentForm from "@/views/PaymentForm.vue";
+import PaymentDetail from "@/views/PaymentDetail.vue";
+
+
+
+const routes = [
+  { path: "/", component: DashboardView },
+  { path: "/users", component: UserList },
+  { path: "/users/new", component: UserForm },
+  { path: "/users/:id", component: UserForm },
+  { path: "/payments", component: PaymentList },
+  { path: "/payments/new", component: PaymentForm },
+  { path: "/payments/:id/edit", component: PaymentForm },
+  { path: "/payments/:id", component: PaymentDetail },
+  
+];
+
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  history: createWebHistory(process.env.BASE_URL || '/'),
+  routes,
+});
 
-export default router
+export default router;
