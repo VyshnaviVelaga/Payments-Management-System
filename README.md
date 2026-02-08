@@ -104,23 +104,23 @@ npm run serve
 
 ## Application Screenshots
 ### Dashboard
-<img width="1509" height="688" alt="Dashboard" src="https://github.com/user-attachments/assets/9ee8f2dc-9219-4d34-979c-c1fce801d14e" />
+<img width="1509" height="770" alt="Dashboard3" src="https://github.com/user-attachments/assets/ecb704b6-a4bb-415b-bba3-9b0298130bfc" />
 <img width="1505" height="410" alt="Dashboard1" src="https://github.com/user-attachments/assets/35f46adf-52ca-423b-bf3f-32c7272346db" />
 
 ### User Management
-<img width="1507" height="762" alt="UserManagement" src="https://github.com/user-attachments/assets/2d92c091-bd3f-4814-b1cc-e4ec9e9a02fc" />
+<img width="1509" height="797" alt="UserManagement1" src="https://github.com/user-attachments/assets/a45b9f6c-a823-4ece-b9d7-8464a0d74603" />
 
 ### Adding User
-<img width="1504" height="761" alt="Adding User" src="https://github.com/user-attachments/assets/5dfc23a9-8fc0-47f0-8d27-4d8c20c51fba" />
+<img width="1509" height="843" alt="AddingUsers1" src="https://github.com/user-attachments/assets/fab9b738-18ca-42f7-8c81-ae4570a8fbf6" />
 
 ### Payment Management
-<img width="1512" height="775" alt="PaymentManagement" src="https://github.com/user-attachments/assets/a40cf376-e50c-46f7-a6c8-417bd48dc881" />
+<img width="1509" height="882" alt="PaymentManagemnet1" src="https://github.com/user-attachments/assets/4b564e06-a3ec-458a-8b0a-c6bfb7603eee" />
 
 ### Adding Payment
-<img width="1505" height="783" alt="Creating Payment" src="https://github.com/user-attachments/assets/8ff1696c-43a1-454a-852b-17d3cdf24444" />
+<img width="1509" height="928" alt="AddingPayment1" src="https://github.com/user-attachments/assets/9da97a34-e45f-4aed-8569-b6ef9cba6702" />
 
 ### Viewing Payment
-<img width="1508" height="669" alt="Viewing Payment" src="https://github.com/user-attachments/assets/6f6c246e-a7fe-4cd5-811f-be209293b9e0" />
+<img width="1509" height="928" alt="Viewingpayment1" src="https://github.com/user-attachments/assets/56992fc5-0092-4107-9fa6-78e725f24fa7" />
 
 
 ### Compiles and minifies for production
